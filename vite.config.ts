@@ -8,7 +8,7 @@ import path from 'path';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: './',
+  base: './', // 资源路径(相对路径) 默认是绝对路径(没有.)
   plugins: [
     vue(),
     ElementPlus({}),
