@@ -11,7 +11,7 @@ const routes = [
     path: '/component',
     name: 'component',
     component: () => import('../views/Menus/index.vue'),
-    redirect: {name: 'Buttons'},
+    redirect: {name: 'CustomNoticeBar'},
     children: [
       {
         path: '/component/buttons',
