@@ -5,6 +5,6 @@
 </template>
 
 <script setup lang="ts">
-import MobileSimulator from "@/components/MobileSimulator/index.vue";
+import MobileSimulator from "../../../components/MobileSimulator/index.vue";
 import "./index.less";
 </script>
