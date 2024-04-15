@@ -38,11 +38,11 @@ const router = useRouter();
 const state = reactive({currentMenuId: '2'});
 
 const menus = [
-  // {
-  //   id: '1',
-  //   url: '/component/buttons',
-  //   name: '按钮',
-  // },
+  {
+    id: '1',
+    url: '/component/buttons',
+    name: '按钮',
+  },
   {
     id: '2',
     url: '/component/formCard',
